@@ -6,8 +6,8 @@
 //
 
 struct Course: Decodable {
-    var name: String
-    var imageUrl: String
-    var numberOfLessons: Int
-    var numberOfTests: Int
+    let name: String
+    let imageUrl: String
+    let numberOfLessons: Int
+    let numberOfTests: Int
 }
