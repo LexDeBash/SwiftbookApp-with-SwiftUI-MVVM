@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RowView: View {
-    let viewModel: CourseViewViewModel
+    let viewModel: RowViewViewModel
     
     var body: some View {
         HStack {
@@ -31,7 +31,7 @@ struct RowView: View {
 
 struct CourseRowView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView(viewModel: CourseViewViewModel(course: Course(
+        RowView(viewModel: RowViewViewModel(course: Course(
             name: "Course Name",
             imageUrl: "https://swiftbook.ru/wp-content/uploads/2018/03/2-courselogo.jpg",
             numberOfLessons: 40,

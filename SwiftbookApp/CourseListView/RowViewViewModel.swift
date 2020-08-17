@@ -1,5 +1,5 @@
 //
-//  CourseViewViewModel.swift
+//  RowViewViewModel.swift
 //  SwiftbookApp
 //
 //  Created by Alexey Efimov on 14.08.2020.
@@ -7,13 +7,13 @@
 
 import Foundation
 
-protocol CourseViewViewModelProtocol: class {
+protocol RowViewViewModelProtocol: class {
     var courseName: String { get }
     var imageData: Data? { get }
     init(course: Course)
 }
 
-class CourseViewViewModel: CourseViewViewModelProtocol {
+class RowViewViewModel: RowViewViewModelProtocol {
     var courseName: String {
         course.name
     }

@@ -18,7 +18,7 @@
 		A8734E6024E6777600963297 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8734E5F24E6777600963297 /* Course.swift */; };
 		A8734E6324E685C400963297 /* CourseDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8734E6224E685C400963297 /* CourseDetailsViewModel.swift */; };
 		A8734E6A24E6B0FE00963297 /* CourseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8734E6924E6B0FE00963297 /* CourseListViewModel.swift */; };
-		A8734E6C24E6B5EA00963297 /* CourseViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8734E6B24E6B5EA00963297 /* CourseViewViewModel.swift */; };
+		A8734E6C24E6B5EA00963297 /* RowViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8734E6B24E6B5EA00963297 /* RowViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		A8734E5F24E6777600963297 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		A8734E6224E685C400963297 /* CourseDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsViewModel.swift; sourceTree = "<group>"; };
 		A8734E6924E6B0FE00963297 /* CourseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListViewModel.swift; sourceTree = "<group>"; };
-		A8734E6B24E6B5EA00963297 /* CourseViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewViewModel.swift; sourceTree = "<group>"; };
+		A8734E6B24E6B5EA00963297 /* RowViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 				A8734E4A24E6761B00963297 /* CourseListView.swift */,
 				A8734E6924E6B0FE00963297 /* CourseListViewModel.swift */,
 				A8734E5724E676B500963297 /* RowView.swift */,
-				A8734E6B24E6B5EA00963297 /* CourseViewViewModel.swift */,
+				A8734E6B24E6B5EA00963297 /* RowViewViewModel.swift */,
 			);
 			path = CourseListView;
 			sourceTree = "<group>";
@@ -196,7 +196,7 @@
 			files = (
 				A8734E5A24E676CA00963297 /* CourseDetailsView.swift in Sources */,
 				A8734E6A24E6B0FE00963297 /* CourseListViewModel.swift in Sources */,
-				A8734E6C24E6B5EA00963297 /* CourseViewViewModel.swift in Sources */,
+				A8734E6C24E6B5EA00963297 /* RowViewViewModel.swift in Sources */,
 				A8734E6024E6777600963297 /* Course.swift in Sources */,
 				A8734E6324E685C400963297 /* CourseDetailsViewModel.swift in Sources */,
 				A8734E5E24E6771D00963297 /* DataManager.swift in Sources */,
